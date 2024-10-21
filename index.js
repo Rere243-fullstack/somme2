@@ -27,7 +27,7 @@
   //  default:
      //   console.log("Vous avez fait une erreur de frappe.")
 //}
-
+   
 const listeMots = ["Cachalot","Petunia","Serviette"]
 let Score = 0
 let motUtilisateur = prompt("Entrez un mot :" +listeMots[0])
@@ -46,3 +46,19 @@ if(motUtilisateur === listeMots[2]){
     Score++
 }
 console.log(Score);
+   //const listeMots = ['Cachalot', 'Pétunia', 'Serviette']
+   //console.log(listeMots[0])
+   //console.log(listeMots[1])
+  // console.log(listeMots[2])
+//for(let compteur = 0;compteur < 3; compteur = compteur +1){
+   // console.log(compteur)
+//}
+// boucle : for et while
+for(let i =0;i<3;i=i++){
+    console.log(i)
+}
+let i = 0
+while(i<3){
+    console.log(i)
+    i++
+}
