@@ -28,24 +28,34 @@
      //   console.log("Vous avez fait une erreur de frappe.")
 //}
    
-const listeMots = ["Cachalot","Petunia","Serviette"]
+
 let Score = 0
-let motUtilisateur = prompt("Entrez un mot :" +listeMots[0])
 
-if(motUtilisateur === listeMots[0]){
-    Score++
+let choix = prompt("Veillez choisir la liste : mots ou  phrases")
+while(choix !=="mots" && choix !=="phrases"){
+    choix = prompt("veillez choisir la liste : mots ou phrases")
 }
- motUtilisateur = prompt("Entrez un mot :" +listeMots[1])
 
-if(motUtilisateur === listeMots[1]){
-    Score++
+if(choix ==="mots"){
+    for (i = 0 ; i< listeMots.length; i++){
+        let motUtilisateur = prompt("Entrez un mot :" +listeMots[i])
+          if(motUtilisateur === listeMots[i]){
+              Score++
+          }
+       }
+       console.log("votre score est de"  + Score + "sur " + listeMots.length);
+}else{
+    for (i = 0 ; i< listePhrases.length; i++){
+        let motUtilisateur = prompt("Entrez un mot :" +listePhrases[i])
+          if(motUtilisateur === listePhrases[i]){
+              Score++
+          }
+       }
+       console.log("votre score est de"  + Score + "sur " + listePhrases.length); 
 }
- motUtilisateur = prompt("Entrez un mot :" +listeMots[2])
 
-if(motUtilisateur === listeMots[2]){
-    Score++
-}
-console.log(Score);
+
+
    //const listeMots = ['Cachalot', 'Pétunia', 'Serviette']
    //console.log(listeMots[0])
    //console.log(listeMots[1])
@@ -54,11 +64,19 @@ console.log(Score);
    // console.log(compteur)
 //}
 // boucle : for et while
-for(let i =0;i<3;i=i++){
-    console.log(i)
+//for(let i =0;i<3;i=i++){
+   // console.log(i)
+//}
+//let i = 0
+//while(i<3){
+   // console.log(i)
+   // i++
+//}
+
+//let motUtilisateur = prompt("liste de mot ou de phrase")
+// structure de fonction
+
+lancerJeu(listeMots) {
+    // code
 }
-let i = 0
-while(i<3){
-    console.log(i)
-    i++
-}
+

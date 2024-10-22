@@ -3,4 +3,39 @@
 L’objectif de cette application est d’apprendre à taper plus vite au clavier,
  en tapant le plus rapidement possible et dans un temps imparti des mots proposés
   par l’application.
+  structure conditionnelle:
+  Une condition est un type de structure conditionnelle qui contient un test dont
+   le résultat sera vrai ou faux.
 
+Les conditions if / else permettent d’exécuter du code selon une réponse unique à 
+un test.
+
+Les conditions switch permettent d’exécuter du code si notre test peut avoir 
+plusieurs réponses.
+
+Vous pouvez utiliser des booléens pour les tests de vos conditions, 
+ou des opérateurs de comparaison, en fonction de ce que vous souhaitez tester.
+répéter du code grace a la boucle:
+Une boucle est une structure conditionnelle qui permet de répéter
+ un certain nombre de fois du code, 
+jusqu’à ce qu’un test ne soit plus vrai.
+Il  existe deux principaux types de boucles :
+
+La boucle for permet de répéter du code lorsque l’on sait d’avance combien de
+ fois il faudra le répéter.
+
+Par exemple, si nous voulons demander exactement trois 
+fois à l’utilisateur d’entrer un mot.
+
+La boucle while permet de répéter du code autant de fois
+ qu’il le faut pour qu’une condition ne soit plus vraie.
+
+Par exemple, si nous voulons redemander un mot à l’utilisateur 
+jusqu’à ce que ce mot soit correct.
+Une boucle est une structure conditionnelle qui permet de répéter 
+du code plusieurs fois.
+
+La boucle for permet de répéter du code pour un nombre défini de fois.
+
+La boucle while permet de répéter du code jusqu’à ce qu’une condition 
+ne soit plus remplie.
