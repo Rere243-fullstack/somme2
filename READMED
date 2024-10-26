@@ -67,3 +67,14 @@ les branches se terminent généralement par une feuille : texte.
 En développement informatique, on dit que header, 
 main et footer sont les noeuds enfants de body, 
 et que body est le parent de ces nœuds.
+
+Pour résoudre ce problème, la méthode la plus efficace est d’ajouter
+ le mot-clé defer dans la balise script. Concrètement, 
+ cela revient à demander au navigateur “Si tu rencontres la balise script,
+  diffère sa prise en compte et attends que la page soit chargée.”
+Pour modifier un élément du DOM, JavaScript propose là encore de nombreuses méthodes. Nous en aborderons deux dans ce chapitre :
+
+setAttribute : méthode la plus générique, qui permet de spécifier 
+n’importe quel attribut ;
+
+classList : propriété spécifique qui permet de modifier des classes.  
