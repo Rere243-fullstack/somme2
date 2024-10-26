@@ -39,3 +39,31 @@ La boucle for permet de répéter du code pour un nombre défini de fois.
 
 La boucle while permet de répéter du code jusqu’à ce qu’une condition 
 ne soit plus remplie.
+
+Une fonction est un bloc de code auquel on attribue un nom. 
+Appeler cette fonction permet d’exécuter le code qu’elle contient. 
+On parle donc de fonction, car il s’agit d’un bloc de code qui a un rôle spécifique 
+au sein de votre fichier 
+JavaScript. Une fonction peut ainsi : 
+
+contenir des informations, qu’on appelle paramètres ;
+
+retourner un résultat ;
+
+effectuer une action. 
+Si votre projet continue de grandir, regrouper toutes vos fonctions au même 
+endroit risque de rapidement causer des problèmes de lisibilité et de navigation.
+ C’est encore plus vrai si vous êtes plusieurs à travailler sur le même projet !
+ Dans la structure ci-dessus :
+
+le body en haut représente la racine de l’arbre DOM ;
+
+de cette racine se déploient des branches (en bleu sur l’image) ;
+
+ces branches mènent à des nœuds : header, main, footer, h1, h2, div, p… ;
+
+les branches se terminent généralement par une feuille : texte. 
+
+En développement informatique, on dit que header, 
+main et footer sont les noeuds enfants de body, 
+et que body est le parent de ces nœuds.
